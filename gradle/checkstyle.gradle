@@ -1,0 +1,15 @@
+apply plugin: 'checkstyle'
+
+checkstyle {
+    sourceSets = [sourceSets.main]
+    maxWarnings = 0
+    ignoreFailures = false
+}
+
+tasks.withType(Checkstyle) {
+    exclude 'com/mryqr/common/**'
+    exclude 'com/mryqr/about/**'
+    exclude 'com/mryqr/spike/**'
+}
+
+

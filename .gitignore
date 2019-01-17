@@ -1,0 +1,14 @@
+target
+*.iml
+*.ipr
+*.iws
+build
+out
+.gradle
+tmp.json
+tmp.xml
+tmp.txt
+*.log
+.shelf
+*.retry
+.DS_Store

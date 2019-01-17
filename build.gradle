@@ -1,0 +1,14 @@
+plugins {
+    id "java"
+    id "idea"
+}
+
+
+repositories {
+    maven { url "https://maven.aliyun.com/repository/central" }
+
+}
+
+dependencies {
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+}
