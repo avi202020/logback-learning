@@ -13,6 +13,10 @@
         </encoder>
     </appender>
 
+    <logger name="davenkin.parent.child1">
+        <level value="DEBUG"/>
+    </logger>
+
     <root level="info">
         <appender-ref ref="STDOUT"/>
         <appender-ref ref="ROOT_FILE"/>
